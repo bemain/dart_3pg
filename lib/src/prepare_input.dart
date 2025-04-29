@@ -1,9 +1,9 @@
 import 'package:collection/collection.dart';
-import 'package:flutter_3pg/prepare_climate.dart';
-import 'package:flutter_3pg/prepare_parameters.dart';
-import 'package:flutter_3pg/prepare_site.dart';
-import 'package:flutter_3pg/prepare_sizeDist.dart';
-import 'package:flutter_3pg/prepare_thinning.dart';
+import 'prepare_climate.dart';
+import 'prepare_parameters.dart';
+import 'prepare_site.dart';
+import 'prepare_sizeDist.dart';
+import 'prepare_thinning.dart';
 
 Map<String, dynamic> prepareInput({
   required Map<String, dynamic> site,
